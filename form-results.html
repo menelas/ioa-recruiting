@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Insurance Office of America</title>
+   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/app.bootstrap.css">
+   <link rel="stylesheet" href="css/app.css">
+   <link rel="stylesheet" href="css/form-results.css">
+   <script type="text/javascript" src="js/jquery.min.js"></script>
+   <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body class="cams-pad cams-page">
+   <nav class="navbar navbar-inverse navbar-fixed-top menu-top">
+      <div class="container-fluid menu-margin">
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".sidebar1" aria-expanded="false" aria-controls="navbar">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="150" alt="Company Title">
+            </a>
+            <h4 class="company-title">Insurance Office of America</h4>
+            <h5>Talent Acquisition Portal</h5>
+         </div>
+         <div id="navbar" role="navigation" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+            <ul class="nav navbar-nav navbar-right">
+               <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Ela Dragan <i class="fa fa-cog" aria-hidden="true"></i></a>
+                  <ul class="dropdown-menu">
+                     <div class="arrow-up"></div>
+                     <li><a href="#">Edit Profile</a>
+                     </li>
+                     <li><a href="#">Logout</a>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+   <div class="container-fluid content">
+      <div class="row sidebar-container">
+         <div id="sidebar" class="col-sm-3 sidebar1 sidebar navbar-collapse collapse">
+            <ul class="nav nav-sidebar">
+               <li>
+                  <a href="index.html"><i class="fa fa-tachometer fa-2x" aria-hidden="true"></i><span>Dashboard</span></a>
+                  <hr />
+               </li>
+               <li>
+                  <a href="tasks.html"><i class="fa fa-check-square-o fa-2x" aria-hidden="true"></i><span> Tasks</span></a>
+                  <hr />
+               </li>
+               <li>
+                  <a href="activity.html"><i class="fa fa-bullhorn fa-2x" aria-hidden="true"></i><span> Activity </span></a>
+                  <hr />
+               </li>
+            </ul>
+
+            <ul class="nav nav-sidebar nav-sidebar2">
+               <li class="dropdown">
+                  <hr>
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-cog fa-3x" aria-hidden="true"></i><span> Amy Wacker</span>
+                     <i class="fa fa-plus fa-2x location" aria-hidden="true"></i><i class="fa fa-minus fa-2x location" aria-hidden="true"></i></a>
+                  <ul class="dropdown-menu">
+                     <li><a href="#">Edit Profile</a>
+                     </li>
+                     <li><a href="#">Help</a>
+                     </li>
+                     <li><a href="#">Logout</a>
+                     </li>
+                  </ul>
+                  <hr>
+               </li>
+            </ul>
+         </div>
+         <!-- Body -->
+         <div class="body-container">
+            <ol class="breadcrumb">
+               <li><a href="tasks.html"><i class="fa fa-check-square-o fa-1x"></i> Tasks</a>
+               </li>
+               <li><a href="#">Pending Approval</a>
+               </li>
+               <li class="active"><a href="#">James Peterson</a>
+               </li>
+            </ol>
+
+            <div class="panel panel-primary">
+
+               <div class="panel-body">
+
+                  <div class="title-container">
+                     <div class="submitted pull-right">Submitted on: October 19</div>
+                     <div class="title">James Peterson New Hire Checklist Results</div>
+                  </div>
+                  <hr />
+
+                  <form>
+                     <div class="row">
+                        <div class="form-group col-sm-6 col-md-6 col-lg-6">
+                           <label class="required control-label" for="company">Company/EIN:</label>
+                           <select id="company" name="company" class="form-control">
+                              <option value="Please Choose EIN">--Please Choose EIN--</option>
+                              <option value="AAA/Asset Advisors of America, LLC">AAA/Asset Advisors of America, LLC</option>
+                              <option value="EAGLE/Eagle American Insurance Agency, LLC<">EAGLE/Eagle American Insurance Agency, LLC</option>
+                              <option value="IOA/Insurance Office of America, Inc." selected>IOA/Insurance Office of America, Inc.</option>
+                              <option value="IOAG/IOA Group, LLC">IOAG/IOA Group, LLC</option>
+                              <option value="IOAP/IOA Properties, LLC">IOAP/IOA Properties, LLC</option>
+                              <option value="IOAS/IOA Sports Partners, LLC">IOAS/IOA Sports Partners, LLC</option>
+                              <option value="IOASV/IOA Services, LLC">IOASV/IOA Services, LLC</option>
+                              <option value="MSA/Marshall Solutions Of America, LLC">MSA/Marshall Solutions Of America, LLC</option>
+                              <option value="MUP/Match-Up Promotions, LLC">MUP/Match-Up Promotions, LLC</option>
+                              <option value="NATINC/IOA National, LLC">NATINC/IOA National, LLC</option>
+                              <option value="PINE/Pine Street Insurance, LLC">PINE/Pine Street Insurance, LLC</option>
+                              <option value="POA/Payroll Office of America, LLC">POA/Payroll Office of America, LLC</option>
+                              <option value="REAG/Realty Office of America">REAG/Realty Office of America</option>
+                              <option value="SAFELINKS/IOA Safety, LLC">SAFELINKS/IOA Safety, LLC</option>
+                              <option value="TSA/Technology Solutions of America, LLC">TSA/Technology Solutions of America, LLC</option>
+                              <option value="VFC, Village Fitness, LLC">VFC, Village Fitness, LLC</option>
+                           </select>
+                        </div>
+
+                        <div class="form-group col-sm-6 col-md-6 col-lg-6">
+                           <label class="required control-label" for="employee-name">Employee Name:</label>
+                           <input id="employee-name" name="employee-name" class="form-control input-md" required="" value="James Peterson" type="text">
+                        </div>
+                     </div>
+
+                     <div class="row">
+                        <div class="form-group col-sm-6 col-md-6 col-lg-6">
+                           <label class="required control-label" for="position">Position/Title:</label>
+                           <input id="position" name="position" class="form-control input-md" required="" value="Graphic Designer" type="text">
+                        </div>
+
+                        <div class="form-group col-sm-3 col-md-3 col-lg-3">
+                           <label class="required control-label" for="start-date">Start Date:</label>
+                           <input id="start-date" name="start-date" class="form-control input-md" required="" value="10/31/2016" type="text">
+                        </div>
+                     </div>
+
+                     <div class="row">
+                        <div class="form-group col-sm-6 col-md-6 col-lg-6">
+                           <label class="required control-label" for="physical-location">Physical Location/Disaster:</label>
+                           <select id="physical-location" name="physical-location" class="form-control">
+                              <option value="Ali Pool/LaBelle FL">Ali Pool/LaBelle FL</option>
+                              <option value="Aliso Viejo (Orange County Office)">Aliso Viejo (Orange County Office)</option>
+                              <option value="Arizona (Legends)">Arizona (Legends)</option>
+                              <option value="Atlanta<">Atlanta</option>
+                              <option value="Auburn-Main Office">Auburn-Main Office</option>
+                              <option value="Auburn-San Francisco">Auburn-San Francisco</option>
+                              <option value="Birmingham">Birmingham</option>
+                              <option value="Boca Raton">Boca Raton</option>
+                              <option value="Cherry Creek (Denver, CO)">Cherry Creek (Denver, CO)</option>
+                              <option value="Cherry Hill, NJ">Cherry Hill, NJ</option>
+                              <option value="Cocoa">Cocoa</option>
+                              <option value="Columbia, SC (Lexington)">Columbia, SC (Lexington)</option>
+                              <option value="EA_CI_Birmingham">EA_CI_Birmingham</option>
+                              <option value="EA_CW_Oldsmar, FL">EA_CW_Oldsmar, FL</option>
+                              <option value="EA_DEMETREE_Jacksonville">EA_DEMETREE_Jacksonville</option>
+                              <option value="EA_HJ_Big Pine">EA_HJ_Big Pine</option>
+                              <option value="EA_HJ_Marathon">EA_HJ_Marathon</option>
+                              <option value="EA_HJ_Tavernier">EA_HJ_Tavernier</option>
+                              <option value="EA_KIS_Key Largo">EA_KIS_Key Largo</option>
+                              <option value="EA_KIS_Key West">EA_KIS_Key West</option>
+                              <option value="EA_KIS_Marathon">EA_KIS_Marathon</option>
+                              <option value="EA-ASAP-AIRLINE-Houston, TX">EA-ASAP-AIRLINE-Houston, TX</option>
+                              <option value="EA-ASAP-COOK-Houston, TX">EA-ASAP-COOK-Houston, TX</option>
+                              <option value="EA-ASAP-CORP-Houston, TX">EA-ASAP-CORP-Houston, TX</option>
+                              <option value="EA-ASAP-HUMBLE-Humble, TX">EA-ASAP-HUMBLE-Humble, TX</option>
+                              <option value="EA-ASAP-KATY-Katy, TX">EA-ASAP-KATY-Katy, TX</option>
+                              <option value="EA-KB-Atlanta">EA-KB-Atlanta</option>
+                              <option value="EA-USAG-Golden, Co">EA-USAG-Golden, Co</option>
+                              <option value="EA-USAG-Mesa, AZ">EA-USAG-Mesa, AZ</option>
+                              <option value="Encino, CA (LA Office)">Encino, CA (LA Office)</option>
+                              <option value="Fernandina Beach">Fernandina Beach</option>
+                              <option value="Ft. Lauderdale">Ft. Lauderdale</option>
+                              <option value="Gainesville">Gainesville</option>
+                              <option value="IOAS_Ohio">IOAS_Ohio</option>
+                              <option value="Jacksonville">Jacksonville</option>
+                              <option value="Jupiter">Jupiter</option>
+                              <option value="Lakeland">Lakeland</option>
+                              <option value="Las Vegas">Las Vegas</option>
+                              <option value="Longwood">Longwood</option>
+                              <option value="Maryland">Maryland</option>
+                              <option value="Miami">Miami</option>
+                              <option value="MUP_MSA_Longwood, FL">MUP_MSA_Longwood, FL</option>
+                              <option value="NATINC_Colorado (Eidyia)">NATINC_Colorado (Eidyia)</option>
+                              <option value="NATINC_Colorado (Leading Edge)">NATINC_Colorado (Leading Edge)</option>
+                              <option value="NATINC_Farmingdale, NJ (& EA PL)">NATINC_Farmingdale, NJ (& EA PL)</option>
+                              <option value="NATINC_Florham Park, NJ (&EA PL)">NATINC_Florham Park, NJ (&EA PL)</option>
+                              <option value="NATINC_HANAFIN_Endicott">NATINC_HANAFIN_Endicott</option>
+                              <option value="NATINC_Houston_PMIS">NATINC_Houston_PMIS</option>
+                              <option value="NATINC_Walsenburg, CO">NATINC_Walsenburg, CO</option>
+                              <option value="NATINC_Wilmington (DE)">NATINC_Wilmington (DE)</option>
+                              <option value="Ocala">Ocala</option>
+                              <option value="Ontario, CA">Ontario, CA</option>
+                              <option value="Ormond, FL">Ormond, FL</option>
+                              <option value="Pasadena">Pasadena</option>
+                              <option value="PINE_Orlando Downtown">PINE_Orlando Downtown</option>
+                              <option value="Pleasanton (SanFran)">Pleasanton (SanFran)</option>
+                              <option value="POA_Lakewood Ranch">POA_Lakewood Ranch</option>
+                              <option value="Resident Address">Resident Address</option>
+                              <option value="Sacramento">Sacramento</option>
+                              <option value="San Diego">San Diego</option>
+                              <option value="Santa Barbara">Santa Barbara</option>
+                              <option value="SL_Orlando, Fl">SL_Orlando, Fl</option>
+                              <option value="Sunrise">Sunrise</option>
+                              <option value="Syracuse">Syracuse</option>
+                              <option value="Tallahassee">Tallahassee</option>
+                              <option value="Tampa">Tampa</option>
+                              <option value="Tarpon Springs">Tarpon Springs</option>
+                              <option value="TSA_Winter Garden, FL">TSA_Winter Garden, FL</option>
+                           </select>
+                        </div>
+
+                     </div>
+
+                     <div class="notice">
+                        <hr />
+                        <p>Please contact <a href="mailto:payrolldepartment@ioausa.com">payrolldepartment@ioausa.com</a> should you need to allocate the employee's payroll to multiple branches/departments.</p>
+                     </div>
+
+                     <div class="row">
+                        <div class="form-group col-sm-6 col-md-6 col-lg-6 col-md-6">
+                           <label class="required control-label" for="branch">Branch/Cost Center:</label>
+                           <select id="branch" name="branch" class="form-control">
+                              <option value="Please Choose Branch">--Please Choose Branch--</option>
+                              <option value="101 KIS-Key West">101 KIS-Key West</option>
+                              <option value="102 KIS-Key Largo">102 KIS-Key Largo</option>
+                              <option value="102 Longwood" selected>102 Longwood</option>
+                              <option value="103 KIS-Marathon">103 KIS-Marathon</option>
+                              <option value="104 HJ-Big Pine">104 HJ-Big Pine</option>
+                              <option value="105 HJ-Tavernier">105 HJ-Tavernier</option>
+                              <option value="106 HJ-Marathon">106 HJ-Marathon</option>
+                              <option value="107 DT-Demetree">107 DT-Demetree</option>
+                              <option value="108 SB-Select Business">108 SB-Select Business</option>
+                              <option value="109 PL-Personal Lines">109 PL-Personal Lines</option>
+                              <option value="1102 Match-Up">1102 Match-Up</option>
+                              <option value="1202 Gainesville">1202 Gainesville</option>
+                              <option value="1302 Columbia">1302 Columbia</option>
+                              <option value="1502 Home Office">1502 Home Office</option>
+                              <option value="1902 Village Fitness">1902 Village Fitness</option>
+                              <option value="201 CW-Commonwealth">201 CW-Commonwealth</option>
+                              <option value="202 New Jersey">202 New Jersey</option>
+                              <option value="202 PL-Personal Lines NE">202 PL-Personal Lines NE</option>
+                              <option value="203 KIS-Corporate">203 KIS-Corporate</option>
+                              <option value="204 ASAP-Houston">204 ASAP-Houston</option>
+                              <option value="205 CW-Commonwealth-EIL">205 CW-Commonwealth-EIL</option>
+                              <option value="206 CW-Commonwealth-Nicholas">206 CW-Commonwealth-Nicholas</option>
+                              <option value="207 PL-Personal Lines IPCF">207 PL-Personal Lines IPCF</option>
+                              <option value="208 CI-Birmingham">208 CI-Birmingham</option>
+                              <option value="209 EA-KB-Atlanta">209 EA-KB-Atlanta</option>
+                              <option value="301 USAG-Golden Colorado">301 USAG-Golden Colorado</option>
+                              <option value="302 USAG-Mesa Arizona">302 USAG-Mesa Arizona</option>
+                              <option value="2102 Tallahassee">2102 Tallahassee</option>
+                              <option value="2202 Ft. Lauderdale">2202 Ft. Lauderdale</option>
+                              <option value="2302 IOA Properties">2302 IOA Properties</option>
+                              <option value="2402 IOA Group">2402 IOA Group</option>
+                              <option value="2702 POA">2702 POA</option>
+                              <option value="2902 San Diego">2902 San Diego</option>
+                              <option value="3002 San Francisco">3002 San Francisco</option>
+                              <option value="302 Jupiter">302 Jupiter</option>
+                              <option value="3202 Orange County">3202 Orange County</option>
+                              <option value="3302 Birmingham<">3302 Birmingham</option>
+                              <option value="3902 Reimbursed Services">3902 Reimbursed Services</option>
+                              <option value="4002 Environmental Underwriting Solutions">4002 Environmental Underwriting Solutions</option>
+                              <option value="402 Tampa">402 Tampa</option>
+                              <option value="4102 Ocala">4102 Ocala</option>
+                              <option value="4202 Software Development">4202 Software Development</option>
+                              <option value="4302 Sacramento<">4302 Sacramento</option>
+                              <option value="4602 Technology Solutions of America, LLC">4602 Technology Solutions of America, LLC</option>
+                              <option value="4702 Santa Barbara">4702 Santa Barbara</option>
+                              <option value="4902 Cocoa">4902 Cocoa</option>
+                              <option value="5102 Miami">5102 Miami</option>
+                              <option value="5402 Risk Services">5402 Risk Services</option>
+                              <option value="5702 Marshall Solutions of America">5702 Marshall Solutions of America</option>
+                              <option value="5902 Northeast">5902 Northeast</option>
+                              <option value="6002 New York">6002 New York</option>
+                              <option value="602 Atlanta<">602 Atlanta</option>
+                              <option value="6102 Leading Edge">6102 Leading Edge</option>
+                              <option value="6302 Sports Marketing">6302 Sports Marketing</option>
+                              <option value="6402 Las Vegas">6402 Las Vegas</option>
+                              <option value="6502 Walsenburg">6502 Walsenburg</option>
+                              <option value="6602 Legends">6602 Legends</option>
+                              <option value="6702 Eidyia">6702 Eidyia</option>
+                              <option value="6902 Los Angeles">6902 Los Angeles</option>
+                              <option value="7002 IOA Safety, LLC">7002 IOA Safety, LLC</option>
+                              <option value="702 Jacksonville">702 Jacksonville</option>
+                              <option value="7102 ABX">7102 ABX</option>
+                              <option value="7202 Denver">7202 Denver</option>
+                              <option value="7302 Sports Partners">7302 Sports Partners</option>
+                              <option value="7402 PMIS">7402 PMIS</option>
+                              <option value="7502 IOA Services">7502 IOA Services</option>
+                              <option value="7702 Hanafin-Endicott">7702 Hanafin-Endicott</option>
+                              <option value="7802 Hanafin-Syracuse">7802 Hanafin-Syracuse</option>
+                              <option value="7902 Ormond">7902 Ormond</option>
+                              <option value="8002 Asset Advisers Of America">8002 Asset Advisers Of America</option>
+                              <option value="802 Pine Street Insurance">802 Pine Street Insurance</option>
+                              <option value="8102 IOA Real Estate Advisory Group, LLC">8102 IOA Real Estate Advisory Group, LLC</option>
+                              <option value="8202 Ontario">8202 Ontario</option>
+                              <option value="8402 Cleveland">8402 Cleveland</option>
+                              <option value="8502 Auburn">8502 Auburn</option>
+                              <option value="8602 Locker">8602 Locker</option>
+                              <option value="8702 National Home Office">8702 National Home Office</option>
+                              <option value="8802 Wilmington">8802 Wilmington</option>
+                              <option value="8902 Boston">8902 Boston</option>
+                              <option value="9002 Tucson, AZ">9002 Tucson, AZ</option>
+                              <option value="California">California</option>
+                              <option value="IOA">IOA</option>
+                           </select>
+                        </div>
+
+                        <div class="form-group col-sm-6 col-md-6 col-lg-6">
+                           <label class="required control-label" for="department">Department:</label>
+                           <select id="department" name="department" class="form-control">
+                              <option value="Please Choose Department">--Please Choose Department--</option>
+                              <option value="Accounting">Accounting</option>
+                              <option value="Admin Support">Admin Support</option>
+                              <option value="Asset Protection Specialist">Asset Protection Specialist</option>
+                              <option value="Aviation">Aviation</option>
+                              <option value="Bonds">Bonds</option>
+                              <option value="Claims">Claims</option>
+                              <option value="Client Services">Client Services</option>
+                              <option value="Commercial Lines">Commercial Lines</option>
+                              <option value="Consulting">Consulting</option>
+                              <option value="Distribution">Distribution</option>
+                              <option value="Executive">Executive</option>
+                              <option value="Field Operations">Field Operations</option>
+                              <option value="Financial Services">Financial Services</option>
+                              <option value="Florida Sales Support_MUP">Florida Sales Support_MUP</option>
+                              <option value="GA Sales Support_MUP">GA Sales Support_MUP</option>
+                              <option value="Information Technology">Information Technology</option>
+                              <option value="Life & Health">Life & Health</option>
+                              <option value="Marketing" selected>Marketing</option>
+                              <option value="Match Up Producers">Match Up Producers</option>
+                              <option value="Mergers & Acquisitions">Mergers & Acquisitions</option>
+                              <option value="Operations">Operations</option>
+                              <option value="Payroll">Payroll</option>
+                              <option value="People Services">People Services</option>
+                              <option value="Personal Lines">Personal Lines</option>
+                              <option value="Property Maintenance">Property Maintenance</option>
+                              <option value="Reimbursed Services">Reimbursed Services</option>
+                              <option value="Risk Services">Risk Services</option>
+                              <option value="Sales">Sales</option>
+                              <option value="Sales Producers">Sales Producers</option>
+                              <option value="Select Business">Select Business</option>
+                              <option value="SERVICE - FL_TSOA">SERVICE - FL_TSOA</option>
+                              <option value="SERVICE- NE_TSOA">SERVICE- NE_TSOA</option>
+                              <option value="Training">Training</option>
+                           </select>
+                        </div>
+                     </div>
+
+                     <div class="row">
+                        <div class="form-group col-sm-6 col-md-6 col-lg-6">
+                           <label class="required control-label" for="reviewing-mgr">Primary & Performance Reviewing Mgr:</label>
+                           <input id="reviewing-mgr" name="reviewing-mgr" class="form-control input-md" required="" value="Ted Long" type="text">
+                        </div>
+
+                        <div class="form-group col-sm-6 col-md-6 col-lg-6">
+                           <label class="required control-label" for="second-manager">Secondary Manager:</label>
+                           <input id="second-manager" name="second-manager" class="form-control input-md" required="" value="Jake Longhorn" type="text">
+                        </div>
+                     </div>
+
+                     <div class="row">
+                        <div class="form-group col-sm-6 col-md-6 col-lg-6">
+                           <label class="required control-label" for="second-reviewer">Secondary Performance Reviewer:</label>
+                           <input id="second-reviewer" name="second-reviewer" class="form-control input-md" required="" value="Alex Williams" type="text">
+                        </div>
+
+                        <div class="form-group col-sm-6 col-md-6 col-lg-6">
+                           <label class="control-label" for="time-card">Time Card Approver (if applicable):</label>
+                           <input id="time-card" name="time-card" class="form-control input-md" type="text">
+                        </div>
+                     </div>
+
+                     <div class="row">
+                        <div class="form-group col-sm-6 col-md-6 col-lg-6">
+                           <label class="required control-label" for="review-profile">Performance Review Profile:</label>
+                           <select id="review-profile" name="review-profile" class="form-control">
+                              <option value="Please Choose Profile">--Please Choose Profile--</option>
+                              <option value="Non-Exempt" selected>Non-Exempt</option>
+                              <option value="Exempt">Exempt</option>
+                              <option value="Sales">Sales</option>
+                              <option value="Team Leader">Team Leader</option>
+                              <option value="Supervisor">Supervisor</option>
+                              <option value="Manager (People)">Manager (People)</option>
+                              <option value="Director">Director</option>
+                           </select>
+                        </div>
+
+                        <div class="form-group col-sm-6 col-md-6 col-lg-6">
+                           <label class="required control-label" for="employee-status">Employee Status</label>
+                           <select id="employee_status" name="employee_status" class="form-control">
+                              <option value="Please Choose Status">--Please Choose Status--</option>
+                              <option value="Full Time (40 hrs)" selected>Full Time (40 hrs)</option>
+                              <option value="Reduced Full Time (30-39 hrs)">Reduced Full Time (30-39 hrs)</option>
+                              <option value="Regular Part Time (20-29 hrs)">Regular Part Time (20-29 hrs)</option>
+                              <option value="Reduced Part Time (<20 hours)">Reduced Part Time (<20 hours)</option>
+                              <option value="Temporary Full Time (30+ hours)">Temporary Full Time (30+ hours)</option>
+                              <option value="Temporary Part Time (<30 hours)">Temporary Part Time (<30 hours)</option>
+                              <option value="W-2 Producer">W-2 Producer</option>
+                           </select>
+                        </div>
+                     </div>
+
+                     <div class="notice">
+                        <hr />
+                        <p>Office Needs: Please send office requests (painting, furniture, etc.) to <a href="mailto:maintenance@ioausa.com">maintenance@ioausa.com</a> or <a href="mailto:ioaproperties@ioausa.com">ioaproperties@ioausa.com</a>
+                        </p>
+                     </div>
+
+                     <div class="row">
+                        <div class="form-group col-lg-12">
+                           <label class="control-label" for="text-area">Additional Comments/Instructions:</label>
+                           <textarea rows="4" cols="30" class="form-control" id="text-area" name="text-area"> </textarea>
+                        </div>
+                     </div>
+
+                     <div class="pull-left">
+                        <!-- Button to display when save changes is not selected -->
+                        <button id="save-changes" name="save-changes" class="btn statusBtn grey"> Save Changes</button>
+
+                        <!-- Button to display when save changes is selected
+                           <button id="save-changes" name="save-changes" class="btn btn-primary"> Save Changes</button>
+                            -->
+                     </div>
+
+                     <div class="pull-right">
+                        <button id="appove-submission" name="appove-submission" class="btn btn-primary green"> Approve Submission</button>
+                     </div>
+
+                  </form>
+
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="text-center copyright">
+      <p>Copyright &#169; 2016 Insurance Office of America. All rights reserved. Version 1.0</p>
+   </div>
+</body>
+
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insurance Office of America</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/app.bootstrap.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/dashboard.css">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body class="cams-pad cams-page">
+  <nav class="navbar navbar-inverse navbar-fixed-top menu-top">
+    <div class="container-fluid menu-margin">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".sidebar1" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="150" alt="Company Title">
+        </a>
+        <h4 class="company-title">Insurance Office of America</h4>
+        <h5>Talent Acquisition Portal</h5>
+      </div>
+      <div id="navbar" role="navigation" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Ela Dragan <i class="fa fa-cog" aria-hidden="true"></i></a>
+            <ul class="dropdown-menu">
+              <div class="arrow-up"></div>
+              <li><a href="#">Edit Profile</a>
+              </li>
+              <li><a href="#">Logout</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid content">
+    <div class="row sidebar-container">
+      <div id="sidebar" class="col-sm-3 sidebar1 sidebar navbar-collapse collapse">
+        <ul class="nav nav-sidebar">
+          <li>
+            <a href="index.html"><i class="fa fa-tachometer fa-2x" aria-hidden="true"></i><span>Dashboard</span></a>
+            <hr />
+          </li>
+          <li>
+            <a href="tasks.html"><i class="fa  fa-check-square-o fa-2x" aria-hidden="true"></i><span> Tasks</span></a>
+            <hr />
+          </li>
+          <li>
+            <a href="activity.html"><i class="fa fa-bullhorn fa-2x" aria-hidden="true"></i><span> Activity </span></a>
+            <hr />
+          </li>
+        </ul>
+
+        <ul class="nav nav-sidebar nav-sidebar2">
+          <li class="dropdown">
+            <hr>
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-cog fa-3x" aria-hidden="true"></i><span> Amy Wacker</span>
+                     <i class="fa fa-plus fa-2x location" aria-hidden="true"></i><i class="fa fa-minus fa-2x location" aria-hidden="true"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Edit Profile</a>
+              </li>
+              <li><a href="#">Help</a>
+              </li>
+              <li><a href="#">Logout</a>
+              </li>
+            </ul>
+            <hr>
+          </li>
+        </ul>
+      </div>
+      <!-- Body -->
+      <div class="body-container">
+
+        <div class="col-md-12 col-lg-12 tablecontainer table-tasks">
+          <div class="col-md-12 col-xs-12 title-header">
+            <div class="pull-left head-drop">
+              <div class="btn-group">
+                <i class="fa fa-check-square-o"></i>&nbsp;&nbsp; Tasks
+              </div>
+            </div>
+          </div>
+
+          <div class="panel-body">
+            <div class="hr-tables">
+              <table class="table-hover table-striped table-condensed cf">
+                <thead class="cf">
+                  <tr>
+                    <th>Name</th>
+                    <th>Form</th>
+                    <th>Completion Date</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+
+                  <tr>
+                    <td data-title="Name">James Peterson</td>
+                    <td data-title="Form">New Hire</td>
+                    <td data-title="Completion Date">October 19</td>
+                    <td data-title="Action">
+                      <a href="form-results.html" class="button btn statusBtn grey pending-approval"> Pending Approval</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td data-title="Name">Claire Burgess</td>
+                    <td data-title="Form">New Hire</td>
+                    <td data-title="Completion Date">October 19</td>
+                    <td data-title="Action">
+                      <a href="form-results.html" class="button btn statusBtn grey pending-approval"> Pending Approval</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td data-title="Name">Alexandra Bell</td>
+                    <td data-title="Form">New Hire</td>
+                    <td data-title="Completion Date">October 19</td>
+                    <td data-title="Action">
+                      <a href="form-results.html" class="button btn statusBtn grey pending-approval"> Pending Approval</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td data-title="Name">Rick Jones</td>
+                    <td data-title="Form">New Hire</td>
+                    <td data-title="Completion Date">October 19</td>
+                    <td data-title="Action">
+                      <a href="form-results.html" class="button btn statusBtn grey pending-approval"> Pending Approval</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td data-title="Name">Caroline Bower</td>
+                    <td data-title="Form">New Hire</td>
+                    <td data-title="Completion Date">October 19</td>
+                    <td data-title="Action">
+                      <a href="form-results.html" class="button btn statusBtn grey pending-approval"> Pending Approval</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td data-title="Name">Adam Miller</td>
+                    <td data-title="Form">New Hire</td>
+                    <td data-title="Completion Date">October 19</td>
+                    <td data-title="Action">
+                      <a href="form-results.html" class="button btn statusBtn grey pending-approval"> Pending Approval</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td data-title="Name">Ian Duncan</td>
+                    <td data-title="Form">New Hire</td>
+                    <td data-title="Completion Date">October 19</td>
+                    <td data-title="Action">
+                      <a href="form-results.html" class="button btn statusBtn grey pending-approval"> Pending Approval</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td data-title="Name">Emily Knox</td>
+                    <td data-title="Form">New Hire</td>
+                    <td data-title="Completion Date">October 16</td>
+                    <td data-title="Action">
+                      <a href="form-results.html" class="button btn statusBtn grey pending-approval"> Pending Approval</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td data-title="Name">Kevin Williams</td>
+                    <td data-title="Form">New Hire</td>
+                    <td data-title="Completion Date">October 16</td>
+                    <td data-title="Action">
+                      <a href="form-results.html" class="btn btn-primary statusBtn approved"> Approved</a>
+                    </td>
+                  </tr>
+
+                </tbody>
+              </table>
+
+
+              <div class="col-xs-12 col-sm-12 text-center">
+                <ul class="pagination">
+                  <li class="active"><a href="#">1</a>
+                  </li>
+                  <li><a href="#">2</a>
+                  </li>
+                  <li><a href="#">3</a>
+                  </li>
+                  <li><a href="#">4</a>
+                  </li>
+                  <li><a href="#">5</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center copyright">
+    <p>Copyright &#169; 2016 Insurance Office of America. All rights reserved. Version 1.0</p>
+  </div>
+</body>
+
+</html>
