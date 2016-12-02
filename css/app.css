@@ -1240,7 +1240,3 @@ input[type=checkbox], input[type=radio] {
     color: red;
     font-weight: bold;
 }
-
-.send-button {
-    margin-top: 20px;
-}
