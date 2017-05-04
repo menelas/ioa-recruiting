@@ -936,6 +936,10 @@ td {
     background: #adadad;
 }
 
+.actionBtn a.actionRed {
+    background: #d75252;
+}
+
 .actionBtn a:not(:first-child) {
     margin-top: 6px;
 }
@@ -943,6 +947,20 @@ td {
 .actionBtn a:hover {
     text-decoration: none;
     color: #fff;
+}
+
+.btn-cell {
+    display: table-cell;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.actionBtn{
+    text-align: center;
+}
+
+.actionBtn .btn-cell {
+   display: inline-block;
 }
 
 .statusBtn {
@@ -970,7 +988,7 @@ td {
 }
 
 .tablecontainer {
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 .tablecontainer .tableheader {
@@ -1239,4 +1257,8 @@ input[type=checkbox], input[type=radio] {
     margin-top: 50px;
     color: red;
     font-weight: bold;
+}
+
+.exclamation {
+    color: red;
 }
